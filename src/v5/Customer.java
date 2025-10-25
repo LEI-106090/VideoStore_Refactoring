@@ -36,6 +36,8 @@ public class Customer
 		return result;
 	}
 
+	//	Resulting methods of the
+	//	'Replace Temp with Query' refactoring
 	public int getTotalFrequentRenterPoints()
 	{
 		int frequentRenterPoints = 0;
