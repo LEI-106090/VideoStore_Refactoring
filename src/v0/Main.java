@@ -13,9 +13,9 @@ public abstract class Main
 	public static void main(String[] args)
 	{
 		Customer who = new Customer("Barack Obama");
-		Movie m1 = new Movie("Life of Amalia", Movie.Code.REGULAR);
-		Movie m2 = new Movie("Peter Pan", Movie.Code.CHILDRENS);
-		Movie m3 = new Movie("Donna del Lago", Movie.Code.NEW_RELEASE);
+		Movie m1 = new Movie("Life of Amalia", Movie.Code.REGULAR,true);
+		Movie m2 = new Movie("Peter Pan", Movie.Code.CHILDRENS,true);
+		Movie m3 = new Movie("Donna del Lago", Movie.Code.NEW_RELEASE,false);
 
 		who.addRental(new Rental(m1, 1));
 		who.addRental(new Rental(m2, 2));
